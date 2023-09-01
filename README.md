@@ -19,16 +19,17 @@ git clone https://github.com/leoarmelin/midi-reader-kotlin
 
 2. Navigate to the project's root directory:
 ```bash
-cd MIDI_Reader_Project
+cd midi-reader-kotlin
 ```
 
 ## Usage
 To run the MIDI reader, follow these steps:
-1. Compile the Kotlin source code and create an executable JAR file:
+1. Add the midi file to the root directory (the same as Main.kt)
+2. Compile the Kotlin source code and create an executable JAR file:
 ```bash
 kotlinc Main.kt -include-runtime -d Main.jar
 ```
-2. Run the compiled JAR file, providing the path to the MIDI file you want to read as an argument:
+3. Run the compiled JAR file, providing the path to the MIDI file you want to read as an argument:
 ```bash
 java -jar Main.jar <MIDI_FILE>.mid
 ```
