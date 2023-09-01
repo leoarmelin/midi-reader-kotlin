@@ -39,3 +39,8 @@ Replace <MIDI_FILE> with the name of the MIDI file you want to process. The MIDI
 ```bash
 kotlinc Main.kt -include-runtime -d Main.jar && java -jar Main.jar <MIDI_FILE>.mid
 ```
+
+The output should be the following pattern:
+
+<img width="377" alt="image" src="https://github.com/leoarmelin/midi-reader-kotlin/assets/1687782/c65b0241-d5c7-4fc8-952e-d0af08e0ffb7">
+
