@@ -14,7 +14,7 @@ Before running this project, make sure you have the following software installed
 1. Clone this repository to your local machine:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/leoarmelin/midi-reader-kotlin
 ```
 
 2. Navigate to the project's root directory:
